@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">samvel_homework_lesson_32</string>
+    <string name="show_notifications">Show Notification</string>
+    <string name="notification_hello">Hello and welcome to notification activity.</string>
+    <string name="show_notification_1">Show Notification 1</string>
+    <string name="show_notification_2">Show Notification 2</string>
+    <string name="get_from_contacts">Get From Contacts</string>
+    <string name="contacts_list">Contacts List</string>
+</resources>
