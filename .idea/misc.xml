@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/layout/activity_bottom_navigation_view.xml" value="0.1734375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/layout/activity_main.xml" value="0.1734375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/layout/contact_activity_layout.xml" value="0.1734375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/layout/fragment_bottom_navigation1.xml" value="0.1734375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/layout/fragment_bottom_navigation2.xml" value="0.1734375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/layout/fragment_bottom_navigation3.xml" value="0.1734375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/layout/second_activity_layout.xml" value="0.1734375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/samvel_homework_lesson_32/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1734375" />
+        <entry key="..\:/Users/User/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_2.xml" value="0.1734375" />
       </map>
     </option>
   </component>

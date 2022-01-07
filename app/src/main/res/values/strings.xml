@@ -6,4 +6,13 @@
     <string name="show_notification_2">Show Notification 2</string>
     <string name="get_from_contacts">Get From Contacts</string>
     <string name="contacts_list">Contacts List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_text_1">This is the first fragment.</string>
+    <string name="fragment_text_3">This is the third fragment.</string>
+    <string name="fragment_text_2">This is the second fragment.</string>
+    <string name="fragment_1">Star Club</string>
+    <string name="fragment_2">Office</string>
+    <string name="fragment_3">Game Zone</string>
+    <string name="bottom_navigation_view">Bottom Navigation View</string>
 </resources>
