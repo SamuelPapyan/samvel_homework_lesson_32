@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Samvel_homework_lesson_32">
         <activity
+            android:name=".SharingActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -23,7 +26,7 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".ContactsActivity" />
-        <activity android:name=".BottomNavigationViewActivity"/>
+        <activity android:name=".BottomNavigationViewActivity" />
     </application>
 
 </manifest>

@@ -67,5 +67,20 @@
         android:layout_marginTop="16dp"
         android:paddingHorizontal="8dp"
         />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fragments_with_viewmodel_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:text="@string/fragments_with_viewmodel"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/show_ntf_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="8dp"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

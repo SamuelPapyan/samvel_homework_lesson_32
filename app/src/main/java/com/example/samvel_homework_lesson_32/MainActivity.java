@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     AppCompatButton ntfButton1;
     AppCompatButton ntfButton2;
     AppCompatButton bottomNavigationLink;
+    AppCompatButton sharingLink;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -27,10 +28,12 @@ public class MainActivity extends AppCompatActivity {
         ntfButton2 = findViewById(R.id.show_ntf_2);
         contactsLink = findViewById(R.id.contacts_link);
         bottomNavigationLink = findViewById(R.id.bottom_navigation_link);
+        sharingLink = findViewById(R.id.fragments_with_viewmodel_link);
         ntfButton1.setOnClickListener(this::showNotification);
         ntfButton2.setOnClickListener(this::showNotificationWithLink);
         contactsLink.setOnClickListener(this::linkToContactsList);
         bottomNavigationLink.setOnClickListener(this::linkToBottomNavigationViewActivity);
+        sharingLink.setOnClickListener(this::linkToSharingActivity);
     }
 
     private void showNotification(View view){
@@ -60,6 +63,10 @@ public class MainActivity extends AppCompatActivity {
     }
     private void linkToBottomNavigationViewActivity(View view){
         Intent intent = new Intent(this, BottomNavigationViewActivity.class);
+        startActivity(intent);
+    }
+    private void linkToSharingActivity(View view){
+        Intent intent = new Intent(this, SharingActivity.class);
         startActivity(intent);
     }
 }
