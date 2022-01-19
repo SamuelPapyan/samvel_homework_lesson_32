@@ -10,8 +10,8 @@ public class Entity6WithEntity5 {
     @Embedded
     public Entity6 entity6;
     @Relation(
-            parentColumn = "entityId6",
-            entityColumn = "entityId5",
+            parentColumn = "entity6Id",
+            entityColumn = "entity5Id",
             associateBy = @Junction(Entity5Entity6CrossRef.class)
     )
     public List<Entity5> entities5;

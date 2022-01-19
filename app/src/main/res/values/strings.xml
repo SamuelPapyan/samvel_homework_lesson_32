@@ -20,4 +20,5 @@
     <string name="some_text">some text</string>
     <string name="fragment_b">Fragment B</string>
     <string name="fragments_with_viewmodel">Fragments with ViewModel</string>
+    <string name="click_me">Click Me!</string>
 </resources>

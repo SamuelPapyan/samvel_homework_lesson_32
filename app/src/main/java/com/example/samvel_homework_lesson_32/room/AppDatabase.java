@@ -13,9 +13,10 @@ import androidx.room.RoomDatabase;
                 Entity3.class,
                 Entity4.class,
                 Entity5.class,
-                Entity6.class
+                Entity6.class,
+                Entity5Entity6CrossRef.class
         },
-        version = 1
+        version = 2
 )
 public abstract class AppDatabase extends RoomDatabase{
     private static final String DB_Name = "lesson_36_db";

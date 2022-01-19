@@ -27,6 +27,16 @@
         <activity android:name=".SecondActivity" />
         <activity android:name=".ContactsActivity" />
         <activity android:name=".BottomNavigationViewActivity" />
+        
+        <receiver android:name=".receivers.MyAppWidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_provider" />
+        </receiver>
+
     </application>
 
 </manifest>
